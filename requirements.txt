@@ -1,4 +1,21 @@
-pandas
+# Core data processing
+pandas>=1.5.0
+numpy>=1.24.0
+
+# Scraping
+#google-play-scraper>=1.2.5
+#app-store-scraper>=0.2.0
 google-play-scraper
 app-store-scraper
-tqdm
+requests>=2.31.0
+
+# Progress & utilities
+tqdm>=4.65.0
+
+# Text processing & cleaning
+beautifulsoup4>=4.12.0
+emoji>=2.2.0
+langdetect>=1.0.9
+
+# Date handling
+python-dateutil>=2.8.2
