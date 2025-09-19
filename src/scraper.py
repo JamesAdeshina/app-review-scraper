@@ -1,17 +1,10 @@
 """
-scraper.py
-----------
 Professional app review scraper with:
 - Logging
 - Progress bars
 - Error handling
 """
 
-import logging
-from datetime import datetime
-from typing import Optional
-from app_store_scraper import AppStore
-import requests
 import logging
 from datetime import datetime
 from typing import Optional
@@ -103,56 +96,38 @@ def fetch_google_play_reviews(
 # Apple App Store Scraper
 # ---------------------------
 def fetch_app_store_reviews(
-        app_name: str,
-        app_id: int,
-        country: str = "us",
-        count: int = 100,
+    app_name: str,
+    app_id: int,
+    country: str = "us",
+    count: int = 100,
 ) -> Optional[pd.DataFrame]:
     """
-    Fetch reviews from Apple App Store.
+    Fetch reviews from Apple App Store using app_store_scraper.
     """
     logger.info(f"Starting App Store scrape for {app_name} ({app_id}), {count} reviews...")
     start_time = datetime.now()
 
     try:
-        # Direct URL request to fetch reviews
-        url = f"https://itunes.apple.com/us/rss/customerreviews/id={app_id}/sortBy=mostRecent/json"
-        response = requests.get(url)
+        app = AppStore(country=country, app_name=app_name, app_id=app_id)
 
-        if response.status_code != 200:
-            logger.error(f"Failed to fetch reviews from the App Store. Status code: {response.status_code}")
+        with tqdm(total=count, desc="App Store Reviews", unit="reviews") as pbar:
+            app.review(how_many=count)
+            pbar.update(len(app.reviews))
+
+        if not app.reviews:
+            logger.warning("No reviews returned from App Store.")
             return None
 
-        # Parse the reviews from the response
-        reviews_data = response.json().get('feed', {}).get('entry', [])
-        if not reviews_data:
-            logger.warning("No reviews found for this app.")
-            return None
-
-        # Extract reviews
-        apple_reviews = [{
-            'id': review['id']['label'],
-            'userName': review['author']['name']['label'],
-            'review': review['content']['label'],
-            'rating': review['im:rating']['label'],
-            'date': review['updated']['label'],
-            'link': review['link']['attributes']['href']
-        } for review in reviews_data]
-
-        # Create DataFrame
-        df = pd.DataFrame(apple_reviews)
-        logger.info(f"Completed App Store scrape in {datetime.now() - start_time} — {len(df)} reviews fetched.")
-
-        # Check the columns
+        df = pd.DataFrame(app.reviews)
+        logger.info(f"Raw App Store Reviews: {len(df)}")
         logger.info(f"Available columns: {df.columns.tolist()}")
 
-        # Ensure required columns are available
-        if {'id', 'userName', 'review', 'rating', 'date'}.issubset(df.columns):
-            df = df[['id', 'userName', 'review', 'rating', 'date']]
-        else:
-            logger.error("Required columns are not available in the App Store reviews data.")
-            return None
+        # Select available columns safely
+        available_cols = ["id", "userName", "review", "rating", "date", "link"]
+        existing_cols = [col for col in available_cols if col in df.columns]
+        df = df[existing_cols] if existing_cols else df
 
+        logger.info(f"Completed App Store scrape in {datetime.now() - start_time} — {len(df)} reviews fetched.")
         return df
 
     except Exception as e:
