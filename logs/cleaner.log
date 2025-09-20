@@ -1,0 +1,206 @@
+2025-09-20 20:45:02,407 - INFO - 🚀 Starting cleaning pipeline...
+2025-09-20 20:45:02,408 - INFO - 📂 Raw data directory: /Users/apple2015/Documents/Portfolio/Data/App Review Scraper/data/raw
+2025-09-20 20:45:02,408 - INFO - 📂 Processed data directory: /Users/apple2015/Documents/Portfolio/Data/App Review Scraper/data/processed
+2025-09-20 20:45:02,432 - INFO - 🔍 Cleaning google_play_reviews.csv — 200 rows...
+2025-09-20 20:45:02,436 - INFO - 📝 Using review column: content
+2025-09-20 20:45:02,450 - INFO - 🗑️  Removed 26 duplicates/empty reviews
+2025-09-20 20:45:02,450 - INFO - ✨ Cleaning text content...
+2025-09-20 20:45:02,494 - INFO - 🧹 Kept 166 non-empty cleaned reviews (removed 8)
+2025-09-20 20:45:02,494 - INFO - 📅 Normalizing dates in column: at
+2025-09-20 20:45:02,513 - INFO - ✅ 166 valid dates normalized (removed 0)
+2025-09-20 20:45:02,527 - INFO - ✅ Saved cleaned file → /Users/apple2015/Documents/Portfolio/Data/App Review Scraper/data/processed/google_play_reviews_clean.csv (166 rows)
+2025-09-20 20:45:02,530 - INFO - 🔍 Cleaning apple_store_reviews.csv — 50 rows...
+2025-09-20 20:45:02,530 - INFO - 📝 Using review column: review
+2025-09-20 20:45:02,532 - INFO - ✨ Cleaning text content...
+2025-09-20 20:45:02,534 - INFO - 🧹 Kept 48 non-empty cleaned reviews (removed 2)
+2025-09-20 20:45:02,534 - INFO - 📅 Normalizing dates in column: date
+2025-09-20 20:45:02,550 - INFO - ✅ 48 valid dates normalized (removed 0)
+2025-09-20 20:45:02,555 - INFO - ✅ Saved cleaned file → /Users/apple2015/Documents/Portfolio/Data/App Review Scraper/data/processed/apple_store_reviews_clean.csv (48 rows)
+2025-09-20 20:45:02,555 - INFO - 🎉 All cleaning tasks finished in 0.15 seconds!
+2025-09-20 21:00:55,100 - INFO - 🚀 Starting cleaning pipeline...
+2025-09-20 21:00:55,102 - INFO - 📂 Raw data directory: /Users/apple2015/Documents/Portfolio/Data/App Review Scraper/data/raw
+2025-09-20 21:00:55,102 - INFO - 📂 Processed data directory: /Users/apple2015/Documents/Portfolio/Data/App Review Scraper/data/processed
+2025-09-20 21:00:55,129 - INFO - 🔍 Cleaning google_play_reviews.csv — 200 rows...
+2025-09-20 21:00:55,137 - INFO - 📝 Using review column: content
+2025-09-20 21:00:55,151 - INFO - 🗑️  Removed 26 duplicates/empty reviews
+2025-09-20 21:00:55,151 - INFO - ✨ Cleaning text content...
+2025-09-20 21:00:55,208 - INFO - 🧹 Kept 166 non-empty cleaned reviews (removed 8)
+2025-09-20 21:00:55,209 - INFO - 📅 Normalizing dates in column: at
+2025-09-20 21:00:55,233 - INFO - ✅ 166 valid dates normalized (removed 0)
+2025-09-20 21:00:55,264 - INFO - ✅ Saved cleaned file → /Users/apple2015/Documents/Portfolio/Data/App Review Scraper/data/processed/google_play_reviews_clean.csv (166 rows)
+2025-09-20 21:00:55,268 - INFO - 🔍 Cleaning apple_store_reviews.csv — 50 rows...
+2025-09-20 21:00:55,269 - INFO - 📝 Using review column: review
+2025-09-20 21:00:55,273 - INFO - ✨ Cleaning text content...
+2025-09-20 21:00:55,277 - INFO - 🧹 Kept 48 non-empty cleaned reviews (removed 2)
+2025-09-20 21:00:55,277 - INFO - 📅 Normalizing dates in column: date
+2025-09-20 21:00:55,296 - INFO - ✅ 48 valid dates normalized (removed 0)
+2025-09-20 21:00:55,306 - INFO - ✅ Saved cleaned file → /Users/apple2015/Documents/Portfolio/Data/App Review Scraper/data/processed/apple_store_reviews_clean.csv (48 rows)
+2025-09-20 21:00:55,306 - INFO - 🎉 All cleaning tasks finished in 0.21 seconds!
+2025-09-20 21:03:13,281 - INFO - 🚀 Starting cleaning pipeline...
+2025-09-20 21:03:13,282 - INFO - 📂 Raw data directory: /Users/apple2015/Documents/Portfolio/Data/App Review Scraper/data/raw
+2025-09-20 21:03:13,282 - INFO - 📂 Processed data directory: /Users/apple2015/Documents/Portfolio/Data/App Review Scraper/data/processed
+2025-09-20 21:03:13,282 - INFO - 🔍 Scanning /Users/apple2015/Documents/Portfolio/Data/App Review Scraper/data/raw for raw review files...
+2025-09-20 21:03:13,284 - INFO - Found 4 CSV files: ['whatsapp_google_play_reviews.csv', 'apple_store_reviews.csv', 'google_play_reviews.csv', 'whatsapp_apple_store_reviews.csv']
+2025-09-20 21:03:13,284 - INFO - 📁 Selected files:
+2025-09-20 21:03:13,284 - INFO -    Google Play: whatsapp_google_play_reviews.csv
+2025-09-20 21:03:13,284 - INFO -    Apple Store: apple_store_reviews.csv
+2025-09-20 21:03:13,292 - INFO - 🔍 Cleaning whatsapp_google_play_reviews.csv — 200 rows...
+2025-09-20 21:03:13,292 - INFO - 📝 Using review column: content
+2025-09-20 21:03:13,295 - INFO - 🗑️  Removed 26 duplicates/empty reviews
+2025-09-20 21:03:13,295 - INFO - ✨ Cleaning text content...
+2025-09-20 21:03:13,328 - INFO - 🧹 Kept 164 non-empty cleaned reviews (removed 10)
+2025-09-20 21:03:13,328 - INFO - 📅 Normalizing dates in column: at
+2025-09-20 21:03:13,334 - INFO - ✅ 164 valid dates normalized (removed 0)
+2025-09-20 21:03:13,340 - INFO - ✅ Saved cleaned file → /Users/apple2015/Documents/Portfolio/Data/App Review Scraper/data/processed/whatsapp_reviews_csv_google_play_reviews_clean.csv (164 rows)
+2025-09-20 21:03:13,343 - INFO - 🔍 Cleaning apple_store_reviews.csv — 50 rows...
+2025-09-20 21:03:13,344 - INFO - 📝 Using review column: review
+2025-09-20 21:03:13,345 - INFO - ✨ Cleaning text content...
+2025-09-20 21:03:13,348 - INFO - 🧹 Kept 48 non-empty cleaned reviews (removed 2)
+2025-09-20 21:03:13,348 - INFO - 📅 Normalizing dates in column: date
+2025-09-20 21:03:13,354 - INFO - ✅ 48 valid dates normalized (removed 0)
+2025-09-20 21:03:13,358 - INFO - ✅ Saved cleaned file → /Users/apple2015/Documents/Portfolio/Data/App Review Scraper/data/processed/reviews_csv_apple_store_reviews_clean.csv (48 rows)
+2025-09-20 21:03:13,358 - INFO - 🎉 All cleaning tasks finished in 0.08 seconds!
+2025-09-20 21:04:23,373 - INFO - 🚀 Starting cleaning pipeline...
+2025-09-20 21:04:23,376 - INFO - 📂 Raw data directory: /Users/apple2015/Documents/Portfolio/Data/App Review Scraper/data/raw
+2025-09-20 21:04:23,376 - INFO - 📂 Processed data directory: /Users/apple2015/Documents/Portfolio/Data/App Review Scraper/data/processed
+2025-09-20 21:04:23,376 - INFO - 🔍 Scanning /Users/apple2015/Documents/Portfolio/Data/App Review Scraper/data/raw for raw review files...
+2025-09-20 21:04:23,377 - INFO - Found 2 CSV files: ['whatsapp_google_play_reviews.csv', 'whatsapp_apple_store_reviews.csv']
+2025-09-20 21:04:23,377 - INFO - 📁 Selected files:
+2025-09-20 21:04:23,378 - INFO -    Google Play: whatsapp_google_play_reviews.csv
+2025-09-20 21:04:23,378 - INFO -    Apple Store: whatsapp_apple_store_reviews.csv
+2025-09-20 21:04:23,396 - INFO - 🔍 Cleaning whatsapp_google_play_reviews.csv — 200 rows...
+2025-09-20 21:04:23,397 - INFO - 📝 Using review column: content
+2025-09-20 21:04:23,404 - INFO - 🗑️  Removed 24 duplicates/empty reviews
+2025-09-20 21:04:23,404 - INFO - ✨ Cleaning text content...
+2025-09-20 21:04:23,473 - INFO - 🧹 Kept 169 non-empty cleaned reviews (removed 7)
+2025-09-20 21:04:23,474 - INFO - 📅 Normalizing dates in column: at
+2025-09-20 21:04:23,491 - INFO - ✅ 169 valid dates normalized (removed 0)
+2025-09-20 21:04:23,506 - INFO - ✅ Saved cleaned file → /Users/apple2015/Documents/Portfolio/Data/App Review Scraper/data/processed/whatsapp_reviews_csv_google_play_reviews_clean.csv (169 rows)
+2025-09-20 21:04:23,514 - INFO - 🔍 Cleaning whatsapp_apple_store_reviews.csv — 50 rows...
+2025-09-20 21:04:23,514 - INFO - 📝 Using review column: review
+2025-09-20 21:04:23,524 - INFO - ✨ Cleaning text content...
+2025-09-20 21:04:23,535 - INFO - 🧹 Kept 48 non-empty cleaned reviews (removed 2)
+2025-09-20 21:04:23,535 - INFO - 📅 Normalizing dates in column: date
+2025-09-20 21:04:23,552 - INFO - ✅ 48 valid dates normalized (removed 0)
+2025-09-20 21:04:23,558 - INFO - ✅ Saved cleaned file → /Users/apple2015/Documents/Portfolio/Data/App Review Scraper/data/processed/whatsapp_reviews_csv_apple_store_reviews_clean.csv (48 rows)
+2025-09-20 21:04:23,558 - INFO - 🎉 All cleaning tasks finished in 0.19 seconds!
+2025-09-20 21:04:39,104 - INFO - 🚀 Starting cleaning pipeline...
+2025-09-20 21:04:39,104 - INFO - 📂 Raw data directory: /Users/apple2015/Documents/Portfolio/Data/App Review Scraper/data/raw
+2025-09-20 21:04:39,104 - INFO - 📂 Processed data directory: /Users/apple2015/Documents/Portfolio/Data/App Review Scraper/data/processed
+2025-09-20 21:04:39,104 - INFO - 🔍 Scanning /Users/apple2015/Documents/Portfolio/Data/App Review Scraper/data/raw for raw review files...
+2025-09-20 21:04:39,104 - INFO - Found 2 CSV files: ['whatsapp_google_play_reviews.csv', 'whatsapp_apple_store_reviews.csv']
+2025-09-20 21:04:39,104 - INFO - 📁 Selected files:
+2025-09-20 21:04:39,104 - INFO -    Google Play: whatsapp_google_play_reviews.csv
+2025-09-20 21:04:39,105 - INFO -    Apple Store: whatsapp_apple_store_reviews.csv
+2025-09-20 21:04:39,112 - INFO - 🔍 Cleaning whatsapp_google_play_reviews.csv — 200 rows...
+2025-09-20 21:04:39,112 - INFO - 📝 Using review column: content
+2025-09-20 21:04:39,114 - INFO - 🗑️  Removed 24 duplicates/empty reviews
+2025-09-20 21:04:39,114 - INFO - ✨ Cleaning text content...
+2025-09-20 21:04:39,146 - INFO - 🧹 Kept 169 non-empty cleaned reviews (removed 7)
+2025-09-20 21:04:39,146 - INFO - 📅 Normalizing dates in column: at
+2025-09-20 21:04:39,151 - INFO - ✅ 169 valid dates normalized (removed 0)
+2025-09-20 21:04:39,157 - INFO - ✅ Saved cleaned file → /Users/apple2015/Documents/Portfolio/Data/App Review Scraper/data/processed/whatsapp_reviews_csv_google_play_reviews_clean.csv (169 rows)
+2025-09-20 21:04:39,160 - INFO - 🔍 Cleaning whatsapp_apple_store_reviews.csv — 50 rows...
+2025-09-20 21:04:39,160 - INFO - 📝 Using review column: review
+2025-09-20 21:04:39,162 - INFO - ✨ Cleaning text content...
+2025-09-20 21:04:39,165 - INFO - 🧹 Kept 48 non-empty cleaned reviews (removed 2)
+2025-09-20 21:04:39,165 - INFO - 📅 Normalizing dates in column: date
+2025-09-20 21:04:39,172 - INFO - ✅ 48 valid dates normalized (removed 0)
+2025-09-20 21:04:39,175 - INFO - ✅ Saved cleaned file → /Users/apple2015/Documents/Portfolio/Data/App Review Scraper/data/processed/whatsapp_reviews_csv_apple_store_reviews_clean.csv (48 rows)
+2025-09-20 21:04:39,175 - INFO - 🎉 All cleaning tasks finished in 0.07 seconds!
+2025-09-20 21:12:43,926 - INFO - 🚀 Starting cleaning pipeline...
+2025-09-20 21:12:43,928 - INFO - 📂 Raw data directory: /Users/apple2015/Documents/Portfolio/Data/App Review Scraper/data/raw
+2025-09-20 21:12:43,928 - INFO - 📂 Processed data directory: /Users/apple2015/Documents/Portfolio/Data/App Review Scraper/data/processed
+2025-09-20 21:12:43,928 - INFO - 🔍 Scanning /Users/apple2015/Documents/Portfolio/Data/App Review Scraper/data/raw for raw review files...
+2025-09-20 21:12:43,930 - INFO - Found 2 CSV files: ['whatsapp_google_play_reviews.csv', 'whatsapp_apple_store_reviews.csv']
+2025-09-20 21:12:43,930 - INFO - 📁 Selected files:
+2025-09-20 21:12:43,931 - INFO -    Google Play: whatsapp_google_play_reviews.csv
+2025-09-20 21:12:43,931 - INFO -    Apple Store: whatsapp_apple_store_reviews.csv
+2025-09-20 21:12:43,939 - INFO - 🔍 Cleaning whatsapp_google_play_reviews.csv — 200 rows...
+2025-09-20 21:12:43,939 - INFO - 📝 Using review column: content
+2025-09-20 21:12:43,942 - INFO - 🗑️  Removed 24 duplicates/empty reviews
+2025-09-20 21:12:43,942 - INFO - ✨ Cleaning text content...
+2025-09-20 21:12:43,975 - INFO - 🧹 Kept 169 non-empty cleaned reviews (removed 7)
+2025-09-20 21:12:43,976 - INFO - 📅 Normalizing dates in column: at
+2025-09-20 21:12:43,981 - INFO - ✅ 169 valid dates normalized (removed 0)
+2025-09-20 21:12:43,987 - INFO - ✅ Saved cleaned file → /Users/apple2015/Documents/Portfolio/Data/App Review Scraper/data/processed/whatsapp_google_google_play_google_play_google_play_reviews_clean.csv (169 rows)
+2025-09-20 21:12:43,990 - INFO - 🔍 Cleaning whatsapp_apple_store_reviews.csv — 50 rows...
+2025-09-20 21:12:43,990 - INFO - 📝 Using review column: review
+2025-09-20 21:12:43,992 - INFO - ✨ Cleaning text content...
+2025-09-20 21:12:43,995 - INFO - 🧹 Kept 48 non-empty cleaned reviews (removed 2)
+2025-09-20 21:12:43,995 - INFO - 📅 Normalizing dates in column: date
+2025-09-20 21:12:44,002 - INFO - ✅ 48 valid dates normalized (removed 0)
+2025-09-20 21:12:44,005 - INFO - ✅ Saved cleaned file → /Users/apple2015/Documents/Portfolio/Data/App Review Scraper/data/processed/whatsapp_apple_apple_store_apple_store_apple_store_reviews_clean.csv (48 rows)
+2025-09-20 21:12:44,005 - INFO - 🎉 All cleaning tasks finished in 0.08 seconds!
+2025-09-20 21:13:01,978 - INFO - 🚀 Starting cleaning pipeline...
+2025-09-20 21:13:01,979 - INFO - 📂 Raw data directory: /Users/apple2015/Documents/Portfolio/Data/App Review Scraper/data/raw
+2025-09-20 21:13:01,980 - INFO - 📂 Processed data directory: /Users/apple2015/Documents/Portfolio/Data/App Review Scraper/data/processed
+2025-09-20 21:13:01,980 - INFO - 🔍 Scanning /Users/apple2015/Documents/Portfolio/Data/App Review Scraper/data/raw for raw review files...
+2025-09-20 21:13:01,980 - INFO - Found 2 CSV files: ['whatsapp_google_play_reviews.csv', 'whatsapp_apple_store_reviews.csv']
+2025-09-20 21:13:01,980 - INFO - 📁 Selected files:
+2025-09-20 21:13:01,980 - INFO -    Google Play: whatsapp_google_play_reviews.csv
+2025-09-20 21:13:01,980 - INFO -    Apple Store: whatsapp_apple_store_reviews.csv
+2025-09-20 21:13:01,988 - INFO - 🔍 Cleaning whatsapp_google_play_reviews.csv — 200 rows...
+2025-09-20 21:13:01,988 - INFO - 📝 Using review column: content
+2025-09-20 21:13:01,991 - INFO - 🗑️  Removed 24 duplicates/empty reviews
+2025-09-20 21:13:01,991 - INFO - ✨ Cleaning text content...
+2025-09-20 21:13:02,024 - INFO - 🧹 Kept 169 non-empty cleaned reviews (removed 7)
+2025-09-20 21:13:02,024 - INFO - 📅 Normalizing dates in column: at
+2025-09-20 21:13:02,029 - INFO - ✅ 169 valid dates normalized (removed 0)
+2025-09-20 21:13:02,035 - INFO - ✅ Saved cleaned file → /Users/apple2015/Documents/Portfolio/Data/App Review Scraper/data/processed/whatsapp_google_google_play_google_play_google_play_reviews_clean.csv (169 rows)
+2025-09-20 21:13:02,037 - INFO - 🔍 Cleaning whatsapp_apple_store_reviews.csv — 50 rows...
+2025-09-20 21:13:02,038 - INFO - 📝 Using review column: review
+2025-09-20 21:13:02,039 - INFO - ✨ Cleaning text content...
+2025-09-20 21:13:02,042 - INFO - 🧹 Kept 48 non-empty cleaned reviews (removed 2)
+2025-09-20 21:13:02,042 - INFO - 📅 Normalizing dates in column: date
+2025-09-20 21:13:02,053 - INFO - ✅ 48 valid dates normalized (removed 0)
+2025-09-20 21:13:02,056 - INFO - ✅ Saved cleaned file → /Users/apple2015/Documents/Portfolio/Data/App Review Scraper/data/processed/whatsapp_apple_apple_store_apple_store_apple_store_reviews_clean.csv (48 rows)
+2025-09-20 21:13:02,056 - INFO - 🎉 All cleaning tasks finished in 0.08 seconds!
+2025-09-20 21:14:23,417 - INFO - 🚀 Starting cleaning pipeline...
+2025-09-20 21:14:23,418 - INFO - 📂 Raw data directory: /Users/apple2015/Documents/Portfolio/Data/App Review Scraper/data/raw
+2025-09-20 21:14:23,419 - INFO - 📂 Processed data directory: /Users/apple2015/Documents/Portfolio/Data/App Review Scraper/data/processed
+2025-09-20 21:14:23,419 - INFO - 🔍 Scanning /Users/apple2015/Documents/Portfolio/Data/App Review Scraper/data/raw for raw review files...
+2025-09-20 21:14:23,419 - INFO - Found 2 CSV files: ['whatsapp_google_play_reviews.csv', 'whatsapp_apple_store_reviews.csv']
+2025-09-20 21:14:23,420 - INFO - 📁 Selected files:
+2025-09-20 21:14:23,420 - INFO -    Google Play: whatsapp_google_play_reviews.csv
+2025-09-20 21:14:23,420 - INFO -    Apple Store: whatsapp_apple_store_reviews.csv
+2025-09-20 21:14:23,429 - INFO - 🔍 Cleaning whatsapp_google_play_reviews.csv — 200 rows...
+2025-09-20 21:14:23,429 - INFO - 📝 Using review column: content
+2025-09-20 21:14:23,432 - INFO - 🗑️  Removed 24 duplicates/empty reviews
+2025-09-20 21:14:23,432 - INFO - ✨ Cleaning text content...
+2025-09-20 21:14:23,468 - INFO - 🧹 Kept 169 non-empty cleaned reviews (removed 7)
+2025-09-20 21:14:23,468 - INFO - 📅 Normalizing dates in column: at
+2025-09-20 21:14:23,475 - INFO - ✅ 169 valid dates normalized (removed 0)
+2025-09-20 21:14:23,482 - INFO - ✅ Saved cleaned file → /Users/apple2015/Documents/Portfolio/Data/App Review Scraper/data/processed/whatsapp_google_google_play_google_play_google_play_reviews_clean.csv (169 rows)
+2025-09-20 21:14:23,485 - INFO - 🔍 Cleaning whatsapp_apple_store_reviews.csv — 50 rows...
+2025-09-20 21:14:23,485 - INFO - 📝 Using review column: review
+2025-09-20 21:14:23,486 - INFO - ✨ Cleaning text content...
+2025-09-20 21:14:23,490 - INFO - 🧹 Kept 48 non-empty cleaned reviews (removed 2)
+2025-09-20 21:14:23,490 - INFO - 📅 Normalizing dates in column: date
+2025-09-20 21:14:23,497 - INFO - ✅ 48 valid dates normalized (removed 0)
+2025-09-20 21:14:23,501 - INFO - ✅ Saved cleaned file → /Users/apple2015/Documents/Portfolio/Data/App Review Scraper/data/processed/whatsapp_apple_apple_store_apple_store_apple_store_reviews_clean.csv (48 rows)
+2025-09-20 21:14:23,501 - INFO - 🎉 All cleaning tasks finished in 0.08 seconds!
+2025-09-20 21:16:20,433 - INFO - 🚀 Starting cleaning pipeline...
+2025-09-20 21:16:20,434 - INFO - 📂 Raw data directory: /Users/apple2015/Documents/Portfolio/Data/App Review Scraper/data/raw
+2025-09-20 21:16:20,434 - INFO - 📂 Processed data directory: /Users/apple2015/Documents/Portfolio/Data/App Review Scraper/data/processed
+2025-09-20 21:16:20,434 - INFO - 🔍 Scanning /Users/apple2015/Documents/Portfolio/Data/App Review Scraper/data/raw for raw review files...
+2025-09-20 21:16:20,435 - INFO - Found 2 CSV files: ['whatsapp_google_play_reviews.csv', 'whatsapp_apple_store_reviews.csv']
+2025-09-20 21:16:20,435 - INFO - 📁 Selected files:
+2025-09-20 21:16:20,435 - INFO -    Google Play: whatsapp_google_play_reviews.csv
+2025-09-20 21:16:20,435 - INFO -    Apple Store: whatsapp_apple_store_reviews.csv
+2025-09-20 21:16:20,442 - INFO - 🔍 Cleaning whatsapp_google_play_reviews.csv — 200 rows...
+2025-09-20 21:16:20,443 - INFO - 📝 Using review column: content
+2025-09-20 21:16:20,445 - INFO - 🗑️  Removed 24 duplicates/empty reviews
+2025-09-20 21:16:20,445 - INFO - ✨ Cleaning text content...
+2025-09-20 21:16:20,479 - INFO - 🧹 Kept 169 non-empty cleaned reviews (removed 7)
+2025-09-20 21:16:20,479 - INFO - 📅 Normalizing dates in column: at
+2025-09-20 21:16:20,484 - INFO - ✅ 169 valid dates normalized (removed 0)
+2025-09-20 21:16:20,490 - INFO - ✅ Saved cleaned file → /Users/apple2015/Documents/Portfolio/Data/App Review Scraper/data/processed/whatsapp_google_play_reviews_clean.csv (169 rows)
+2025-09-20 21:16:20,494 - INFO - 🔍 Cleaning whatsapp_apple_store_reviews.csv — 50 rows...
+2025-09-20 21:16:20,495 - INFO - 📝 Using review column: review
+2025-09-20 21:16:20,498 - INFO - ✨ Cleaning text content...
+2025-09-20 21:16:20,502 - INFO - 🧹 Kept 48 non-empty cleaned reviews (removed 2)
+2025-09-20 21:16:20,502 - INFO - 📅 Normalizing dates in column: date
+2025-09-20 21:16:20,512 - INFO - ✅ 48 valid dates normalized (removed 0)
+2025-09-20 21:16:20,518 - INFO - ✅ Saved cleaned file → /Users/apple2015/Documents/Portfolio/Data/App Review Scraper/data/processed/whatsapp_apple_store_reviews_clean.csv (48 rows)
+2025-09-20 21:16:20,518 - INFO - 🎉 All cleaning tasks finished in 0.09 seconds!
