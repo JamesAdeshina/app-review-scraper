@@ -23,7 +23,7 @@ def main():
     apple_id = 310633997
     count = 200
 
-    logger.info(f"\n📱 Scraping reviews for: WhatsApp")
+    logger.info(f"\n Scraping reviews for: WhatsApp")
 
     # Google Play
     logger.info("Starting Google Play scrape...")
@@ -33,7 +33,7 @@ def main():
     if gplay_df is not None:
         save_to_csv(gplay_df, raw_path / "whatsapp_google_play_reviews.csv")
     else:
-        logger.warning("⚠️  Google Play scraping failed")
+        logger.warning("  Google Play scraping failed")
 
     # Apple App Store
     logger.info("Starting Apple App Store scrape...")
@@ -43,9 +43,9 @@ def main():
     if appstore_df is not None:
         save_to_csv(appstore_df, raw_path / "whatsapp_apple_store_reviews.csv")
     else:
-        logger.warning("⚠️  Apple Store scraping failed")
+        logger.warning("  Apple Store scraping failed")
 
-    logger.info("✅ All scraping tasks finished!")
+    logger.info(" All scraping tasks finished!")
 
 
 if __name__ == "__main__":
