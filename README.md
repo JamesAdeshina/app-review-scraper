@@ -1,10 +1,9 @@
-# App Review Scraper 📱
+# App Review Scraper 
 
 A Python-based tool designed to programmatically collect and analyze user reviews from the **Google Play Store** and **Apple App Store**. This project serves as a foundational step towards building automated data pipelines and insightful dashboards for app performance monitoring and user sentiment analysis.
 
----
 
-## 🚀 Features
+##  Features
 
 - **Cross-platform Review Scraping**  
   Collect user reviews efficiently from both major mobile app marketplaces using:  
@@ -13,10 +12,10 @@ A Python-based tool designed to programmatically collect and analyze user review
 
 - **Comprehensive Review Data Extraction**  
   Extract key review elements including:  
-  - ⭐ User ratings  
-  - 📝 Full review text  
-  - 👤 Reviewer identity (where available)  
-  - 📅 Review submission date
+  -  User ratings  
+  -  Full review text  
+  -  Reviewer identity (where available)  
+  -  Review submission date
 
 - **Data Export for Analysis**  
   Save extracted data locally as CSV files, enabling straightforward downstream processing.
@@ -27,9 +26,8 @@ A Python-based tool designed to programmatically collect and analyze user review
   - Sentiment and thematic analysis  
   - Integration with cloud platforms and BI tools such as Azure Synapse and Power BI
 
----
 
-## 🎯 Project Motivation
+##  Project Motivation
 
 Mobile apps generate vast amounts of user feedback that, when properly harnessed, can drive product improvements and enhance customer satisfaction. However, accessing and structuring this data manually is inefficient and error-prone.
 
@@ -41,9 +39,9 @@ This scraper app addresses these challenges by automating the extraction of revi
 
 By developing this local scraper app, I aim to gain hands-on experience with real-world data extraction techniques that pave the way for scalable, automated analytics solutions.
 
----
 
-## 📂 Project Structure
+
+##  Project Structure
 
 
 ```
@@ -71,17 +69,6 @@ App Review Scraper/
 
 ```
 
-
-
-
----
-
-## 💡 Next Steps
-
-- Implement data cleaning and preprocessing pipelines  
-- Conduct sentiment analysis on review texts using NLP libraries  
-- Integrate automated data ingestion workflows to cloud storage and data warehouses  
-- Develop interactive dashboards with Power BI or similar BI tools  
 
 ---
 
