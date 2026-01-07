@@ -70,9 +70,8 @@ App Review Scraper/
 ```
 
 
----
 
-## 📩 Contact
+## Contact
 
 Feel free to open issues or pull requests for improvements or new features.  
 Connect with me on [LinkedIn](https://www.linkedin.com/in/jamesadeshina/) to discuss this project or related opportunities.
